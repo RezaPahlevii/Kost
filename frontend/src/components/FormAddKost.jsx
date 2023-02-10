@@ -9,7 +9,6 @@ const FormAddKost = () => {
             <div className="card-content">
                 <div className="content">
                 <form >
-               
                     <div className="field">
                         <label className="label">Name</label>
                         <div className="control">
