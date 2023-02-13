@@ -15,7 +15,7 @@ const HomePage = () => {
       {/* <Banner/> */}
       <DaftarKost />
     </Container>
-      <Footer />
+      <Footer />  
     </React.Fragment></>
   )
 }
