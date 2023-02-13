@@ -7,6 +7,7 @@ import AddUser from "./pages/AddUser";
 import EditUser from "./pages/EditUser";
 import AddRumahKost from './pages/AddRumahKost';
 import EditRumahKost from './pages/EditRumahKost';
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         <Route path="/rumah-kost" element={<RumahKost/>}/>
         <Route path="/rumah-kost/add" element={<AddRumahKost/>}/>
         <Route path="/rumah-kost/:id" element={<EditRumahKost/>}/>
+      </Routes>
+      <Routes>
+        <Route path="/homepage" element={<HomePage/>}/>
       </Routes>
       </BrowserRouter>
     </div>
