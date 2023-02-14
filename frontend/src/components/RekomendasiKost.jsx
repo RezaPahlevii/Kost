@@ -1,22 +1,28 @@
 import React from "react";
-import { Button, Card, Container } from "react-bootstrap";
-import rumah from "./../image/rumah.jpg";
+import { Card, Col, Container } from "react-bootstrap";
 
-const RekomendasiKost = () => {
+const RekomendasiKost = (props) => {
   return (
     <div>
       <Container>
-        <Card className="mt-5 pt-5" style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={rumah} />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
+        <Col className="pb-3">
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              style={{ height: "10rem", width: "18rem" }}
+              src={props.image}
+            />
+            <Card.Body>
+              <Card.Title>{props.kost}</Card.Title>
+              <Card.Text>
+                {props.alamat}
+                <br />
+                {props.desa}
+              </Card.Text>
+              <Card.Text>{props.harga}</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
       </Container>
     </div>
   );

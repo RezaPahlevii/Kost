@@ -23,7 +23,7 @@ const Nav = () => {
         <Container>
           <NavLink
             style={{ textDecoration: "none", color: "Black" }}
-            to={"/dashboard"}
+            to={"/homepage"}
           >
             AppKost
           </NavLink>
@@ -31,7 +31,7 @@ const Nav = () => {
           <Navbar.Text></Navbar.Text>
           <NavLink
             style={{ textDecoration: "none", paddingRight: 15, color: "Black" }}
-            to={"/dashboard"}
+            to={"/homepage"}
           >
             Pusat Bantuan
           </NavLink>
