@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import RekomendasiKost from "../components/RekomendasiKost";
 import rumah from "./../image/rumah.jpg";
 import rumah2 from "./../image/rumah2.jpg";
