@@ -9,6 +9,7 @@ import AddRumahKost from './pages/AddRumahKost';
 import EditRumahKost from './pages/EditRumahKost';
 import HomePage from "./pages/HomePage";
 import DetailKost from "./pages/DetailKost";
+import ListKost from './pages/ListKost';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Routes>
         <Route path="/homepage" element={<HomePage/>}/>
         <Route path="/detail-kost" element={<DetailKost/>}/>
+        <Route path="/kost-list" element={<ListKost/>}/>
       </Routes>
       </BrowserRouter>
     </div>

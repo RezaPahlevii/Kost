@@ -12,7 +12,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div>
+    <div className="mb-5">
       <Navbar
         fixed="top"
         collapseOnSelect
